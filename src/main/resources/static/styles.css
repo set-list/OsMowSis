@@ -1,0 +1,107 @@
+.lawn-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: #f1eded;
+}
+
+.lawn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px dashed brown;
+}
+
+.lawn-row {
+    display: flex;
+    height: 60px;
+}
+
+.lawn-square {
+    display: inline-block;
+}
+
+.information-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: lightgray;
+}
+
+.current-mower, .sim-summary, .mower-item, .actions-wrapper {
+    padding: 20px 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 0 20px;
+    background-color: #f1eded;
+    min-width: 200px;
+}
+
+.current-mower {
+    text-align: center;
+}
+
+p, h3 {
+    margin: 0;
+}
+
+p.title {
+    margin: 10px 0 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+p.detail {
+    margin: 10px 0;
+}
+
+.app-actions {
+    background: lightgray;
+}
+
+.actions-wrapper {
+    display: flex;
+    flex-direction: column;
+    background: #f1eded;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.actions-wrapper button {
+    margin: 10px 0;
+    padding: 10px 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background: gray;
+    color: white;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.actions-wrapper button:disabled {
+    cursor: not-allowed;
+    color: lightgray;
+}
+
+.mowers-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 0 0 20px 0;
+    background-color: lightgray;
+}
+
+.mower-id {
+}
+.mower-item p img {
+    height: 30px;
+    position: relative;
+    top: 7px;
+    margin-right: 10px;
+}
+
+.done-message {
+    text-align: center;
+    font-size: 2em;
+    padding: 1em;
+    color: darkred;
+}
